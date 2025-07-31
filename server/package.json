@@ -8,7 +8,9 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "axios": "^1.11.0",
     "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^16.6.1",
@@ -18,13 +20,22 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.8.7",
     "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "qrcode": "^1.5.4",
     "validator": "^13.11.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "description": "Secure Document Vault Backend",
+  "keywords": [
+    "secure",
+    "document",
+    "vault",
+    "backend",
+    "cloudinary",
+    "multer"
+  ],
+  "author": "Ashish Panwar",
+  "license": "MIT"
 }
